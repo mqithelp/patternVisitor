@@ -1,4 +1,3 @@
 public interface Animal {
-    void action();
-    void sound();
+    void accept(Visitor visitor);
 }
